@@ -140,3 +140,8 @@ https://hub.docker.com/r/TU_USUARIO/pokeapp
 App en EC2:
 http://<EC2_PUBLIC_IP>:3000
 
+
+En gitbash
+chmod 600 /c/Users/jakil/Desktop/pokeapp-key.pem
+ssh -i /c/Users/jakil/Desktop/pokeapp-key.pem ubuntu@X.X.X.X
+
